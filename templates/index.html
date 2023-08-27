@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RahejaViva</title>
+    <link rel="stylesheet" type="text/css" href="../css/main.css" />
+    <!-- Font Awesome -->
+	<link
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+	rel="stylesheet"
+	/>
+	<!-- Google Fonts -->
+	<link
+	href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+	rel="stylesheet"
+	/>
+	<!-- MDB -->
+	<link
+	href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css"
+	rel="stylesheet"
+	/>
+</head>
+<body>
+
+  <!--Main Navigation-->
+  <header>
+
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark d-none d-lg-block" style="z-index: 2000;">
+      <div class="container-fluid">
+        <!-- Navbar brand -->
+        <a class="navbar-brand nav-link" target="_blank" href="#">
+          <strong><img src="../images/logo.png" height="28px" width="40px"></strong>
+        </a>
+        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
+          aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarExample01" style="text-transform: uppercase;margin-left:300px ; font-weight: 400;font-size: 16px;">
+
+          <ul id="sidemenu" class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#overview">Overview</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#highlights">Highlights</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#amenities" rel="nofollow">Amenities</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#floorplans">Floor Plans</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" aria-current="page" href="#location">Nearby Locations</a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav d-flex flex-row">
+            <li class="nav-item me-2 me-lg-0">
+              <a class="fw-bolder" href="tel:+918422994433" style="color: #f9f9f9;text-decoration:none;font-size: 16px;">  <button type="button" class="fw-bolder btn btn-dark me-3" style="font-weight: bolder;font-size: 15px;"><i class="fa-brands fa-whatsapp me-3"></i>+91 8422994433</button></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar -->
+
+    <div id="intro" class="shadow-2-strong" style="background-color: rgb(11, 11, 11);">
+      <div class="mask">
+        <div class="container-fluid video-wrapper d-flex align-items-center justify-content-center  h-100">
+          <!-- The video -->
+          <video autoplay muted loop id="myVideo">
+            <source src="../media/3.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+
+  </header>
+  <!--Main Navigation-->
+<br>
+  <!--Main layout-->
+  <main class="mt-5">
+
+    <div class="container-fluid">
+      <!--Section: Content-->
+      <section id="overview">
+        <h1 class="display-4 mb-3" style="letter-spacing: 3px;color: green; text-align: center;"><strong>The Glades</strong></h1>   
+        <div class="row mt-5">
+          <div class="col-md-6 gx-5 mb-4">
+            <div class="bg-image hover-overlay ripple shadow-2-strong rounded-5" data-mdb-ripple-color="light">
+              <img src="../images/1.webp" class="img-fluid" height="700px"/>
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6 gx-5 mb-4">
+            <p class="text-muted" style="text-align: justify;">
+              Introducing The Glades, an exceptional residential project in West Pune that redefines luxury living. Immerse yourself in a world of opulence with palatial NA plots designed to deliver an evolved lifestyle beyond your imagination. Experience the true essence of exclusivity with low-density living amidst lush greenery, providing ample space and privacy.
+            </p>
+            <p style="text-align: justify;">Indulge your senses with breathtaking 360-degree views of the majestic Sahyadri Hills, creating a picturesque backdrop for your dream home. Breathe in the purity of 94% cleaner air, ensuring a healthier and rejuvenating environment. Relish the tranquility of 47% less noise, allowing you to escape the hustle and bustle of city life.</p>
+            <p class="text-muted"style="text-align: justify;">
+              The Glades takes sustainability seriously, offering a 3-degree cooler temperature compared to the surroundings, providing a comfortable and pleasant climate throughout the year. It's not just a home; it's a sanctuary where you can reconnect with nature. With over 60 unique species of birds thriving within the project's 2400+ trees, you'll witness the beauty of wildlife up close.
+            </p>
+            <a href="#!" class="btn btn-primary mt-1" style="font-size: 13px; letter-spacing: 1px;" onclick="openForm()">Download E-Broucher</a>
+          </div>
+        </div>
+      </section>
+      <!--Section: Content-->
+
+      <section id="highlights">
+        <h1 class="display-4 mb-5 mt-5" style="letter-spacing: 3px;color: green; text-align: center;"><strong>Highlights</strong></h1>
+        
+        
+          <div class="row bg-dark mt-4">
+            <div class="col-sm-2 mt-4  mb-4 text-center">
+              <img src="../images/2.png" height="70px" width="70px"/>
+              <h6 class="mt-3" style="color: white;font-weight: 100px;font-size: 20px">Property Type</h6>
+              <span style="color: white;">Residential Plot</span>             
+            </div>
+            <div class="col-sm-2 mt-4  mb-4 text-center">
+              <img src="../images/3.png" height="70px" width="70px"/>
+              <h6 class="mt-3" style="color: white;font-size: 20px;font-weight: 100px;">Configuration</h6>
+              <span style="color: white;">2500 - 6000 sq.ft</span>             
+            </div>
+            <div class="col-sm-2 mt-4  mb-4 text-center">
+              <img src="../images/4.png" height="70px" width="70px"/>
+              <h6 class="mt-3" style="color: white;font-weight: 100px;font-size: 20px">Pricing</h6>
+              <span style="color: white;">Starting From Rs. 1.25 Cr*. Onwards</span>          
+            </div> 
+            <div class="col-sm-2 mt-4  mb-4 text-center">
+              <img src="../images/5.png" height="70px" width="70px"/>
+              <h6 class="mt-3" style="color: white;font-size: 20px;font-weight: 100px;">Possession</h6>
+              <span style="color: white;">Coming Soon</span>            
+            </div>
+            <div class="col-sm-2 mt-4  mb-4 text-center">
+              <img src="../images/6.png" height="70px" width="70px"/>
+              <h6 class="mt-3" style="color: white;font-size: 20px;font-weight: 100px;">MahaRera No :</h6>
+              <span style="color: white;">P52100051113</span>             
+            </div>
+            <div class="col-sm-2 mt-4  mb-4 text-center">
+              <img src="../images/7.png" height="70px" width="70px"/>
+              <h6 class="mt-3" style="color: white;font-weight: 100px;font-size: 20px">Location</h6>
+              <span style="color: white;">At Paud Road, Pune</span>           
+            </div> 
+          </div>
+      </section>
+
+    </div>
+
+    <div class="container mt-5">
+      
+      <!--Section: Content-->
+      <section class="text-center">
+        <h1 class="display-4 mb-3 mt-4" style="letter-spacing: 3px;color: green; text-align: center;"><strong>Project Configuration</strong></h1>
+        
+        <div class="row mt-5">
+          <div class="col-lg-4 col-sm-12 mb-4">
+            <div class="card">  
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card" style="background-color: rgb(124, 124, 124,0.2);">
+              <div class="card-body">
+                <h5 class="card-title" style="font-size: 25px;">NA Plots</h5>
+                <p class="card-text" style="font-size: 25px;line-height: 50px;">                 
+                  Carpet : 2500 - 6000 sq.ft
+                  <br>
+                  <span style="color: blue; font-size: 30px;line-height: 50px;">₹ 1.25 Cr* </span> <span style="font-size: 15px;">Onwards</span> 
+                </p>
+                <a href="#!" class="btn btn-primary mt-2" style="font-size: 13px; letter-spacing: 1px;" onclick="openForm()">Price Break-up</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Section: Content-->
+
+      <!--Section: Content-->
+      <section class="mb-5" id="amenities">
+        <h1 class="display-4 mb-3 mt-4" style="letter-spacing: 3px;color: green; text-align: center;"><strong>Amenities</strong></h1>
+            
+            <div class="container row mt-5 ms-5">
+              <div class="col-md-4 justify-content-center">
+                <hr>
+                <img src="../images/swimming-pool (1).png" alt="image" height="70px" width="70px"/><span class="ms-5" style="font-size: 20px;">Swimming Pool</span>
+                <hr>
+                <img src="../images/cricket-ground.png" alt="image" height="70px" width="70px"/><span class="ms-5" style="font-size: 20px;">Cricket Playground</span>
+                <hr>
+                <img src="../images/treadmill.png" alt="image" height="70px" width="70px"/><span class="ms-5" style="font-size: 20px;">Gym</span>
+              </div>
+
+              <div class="col-md-4 justify-content-center">
+                <hr>
+                <img src="../images/playing-cards.png" alt="image" height="70px" width="70px"/><span class="ms-5" style="font-size: 20px;">Card Rooms</span>
+                <hr>
+                <img src="../images/sauna.png" alt="image" height="70px" width="70px"/><span class="ms-5" style="font-size: 20px;">Souna</span>
+                <hr>
+                <img src="../images/chef.png" alt="image" height="70px" width="70px"/><span class="ms-5" style="font-size: 20px;">Gourmet</span>
+                </div>
+
+              <div class="col-md-4 justify-content-center">
+                <hr>
+                <img src="../images/badminton.png" alt="image" height="70px" width="70px"/><span class="ms-5" style="font-size: 20px;">Badminton Court</span>
+                <hr>
+                <img src="../images/court.png" alt="image" height="70px" width="70px"/><span class="ms-5" style="font-size: 20px;">Squash Court</span>             
+                <hr>
+                <img src="../images/swimming-pool (2).png" alt="image" height="70px" width="70px"/><span class="ms-5" style="font-size: 20px;">Kid's Pool</span>
+              </div>
+            </div>
+
+      </section>
+      <!--Section: Content-->
+
+      <!--Section: Content-->
+      <section class="mb-5" id="floorplans">
+        <h1 class="display-4 mb-3 mt-4" style="letter-spacing: 3px;color: green; text-align: center;"><strong>Layout Plan</strong></h1>
+        <div class="row mt-5">
+          <div class="col-lg-4 mb-4">
+            <div class="card">
+              <img src="../images/10.jpg" class="card-img-top"/>
+              <div class="card-body">
+                <h5 class="card-title text-center">Master Plan</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4  mb-4">
+            <div class="card">
+              <img src="../images/8.jpg" class="card-img-top"/>
+              <div class="card-body">
+                <h5 class="card-title text-center">Open Space 2</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="card">
+              <img src="../images/9.jpg" class="card-img-top"/>
+              <div class="card-body">
+                <h5 class="card-title text-center">Open Space 2</h5>
+              </div>
+            </div>
+          </div>
+
+          
+        </div>
+        
+      </section>
+      <!--Section: Content-->
+
+      <!--Section: Content-->
+      <section class="text-center" id="gallery">
+        <h1 class="display-4 mb-3 mt-5" style="letter-spacing: 3px;color: green; text-align: center;"><strong>Project Gallery</strong></h1>
+        
+        <div class="row mt-5">
+          
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card" style="background-color: rgb(124, 124, 124,0.2);">
+              <image src="../images/14.jpg"/>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <image src="../images/16.jpg"/>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-12 mb-4">
+            <div class="card">
+              <image src="../images/15.jpg"/>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+      <!--Section: Content-->
+
+      <!--Section: Content-->
+      <section class="mb-5" id="location">
+        <h1 class="display-4 mb-3 mt-4" style="letter-spacing: 3px;color: green; text-align: center;"><strong>Project Location</strong></h1>
+        
+        <div class="row mt-5">
+          <div class="col-lg-6 justify-content-center">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.6485128152885!2d73.70409327503735!3d18.499573682589908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bda3b51fb2c9%3A0xb4996f2cedabb670!2sRaheja%20Viva!5e0!3m2!1sen!2sin!4v1692990049676!5m2!1sen!2sin" width="100%" height="550px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="col-lg-6 justify-content-center">
+            <ul class="mt-2">    
+              <li>Sus Hinjewadi Road - 2 mins</li>
+              <li>Upcoming ring road - 5 mins</li>
+              <li>Sanskriti School - 5 mins</li>
+              <li>Manas Lake Resort - 5 mins</li>
+              <li>Buninda Hotel - 5 mins</li>
+              <li>Mulshi Multi Speciality Hospital , Lavale - 5 mins</li>
+              <li>Hinjewadi - 10 mins</li>
+              <li>Kothrud - 10 mins</li>
+              <li>Tamini Ghat & Devkund - 10 mins</li>
+              <li>Sanjeevni Hospital Bhugaon - 10 mins</li>
+              <li>Unique Hospital Bhugaon - 10 mins</li>
+              <li>Apple Hospital Bhugaon - 10 mins</li>
+              <li>New Sarovar Hotel - 10 mins</li>
+              <li>TSSM Oxford Int. School - 10 mins</li>
+              <li>New India School - 10 mins</li>
+              <li>Shri Pandit Ravi Shankar School - 10 mins</li>
+              <li>Ryan International School - 10 mins</li>
+              <li>Shreepad Hotel - 10 mins</li>
+              <li>Grills & Gravy Hotel - 15 mins</li>   
+              <li>Banjara Hills Hotel - 15 mins</li>  
+              <li>Sahyadri Hospital Paud road - 15 mins</li>
+              <li>Up & Above, Garden Court Hotel - 15 mins</li> 
+            </ul>      
+          </div>
+        </div>
+  
+      </section>
+      <!--Section: Content-->
+
+      <!--Section: Content-->
+      <section class="text-center" id="visualtour">
+        <h1 class="display-4 mb-3 mt-5" style="letter-spacing: 3px;color: green; text-align: center;"><strong>Visual Tour</strong></h1>
+        
+        <div class="row mt-5">
+          
+
+          <div class="col-md-4  mb-4" >
+            
+              <video width="320px" height="240" controls>
+                <source src="../media/1.mp4" type="video/mp4">
+              </video>
+            
+          </div>
+
+          <div class="col-md-4 mb-4">
+          
+            <video width="320" height="240" controls>
+              <source src="../media/5.mp4" type="video/mp4">
+            </video>
+          
+        </div>
+
+          <div class="col-md-4  mb-4">
+          
+              <video width="320" height="240" controls>
+                <source src="../media/4.mp4" type="video/mp4">
+              </video>
+            
+          </div>
+
+        </div>
+
+      </section>
+      <!--Section: Content-->
+
+      <section class="container">
+        <h1 class="display-4 mb-3 mt-4" style="letter-spacing: 3px;color: green; text-align: center;"><strong>About - Raheja Corp Homes</strong></h1>
+        
+      <div class="container mt-5"  style="text-align: justify ;">
+        Raheja Corp Homes, the esteemed developer behind The Glades in West Pune, is renowned for its commitment to delivering exceptional living experiences. With a rich legacy spanning years, Raheja Corp Homes has established itself as a trusted name in the real estate industry.
+        <br><br>
+        The developer's philosophy revolves around creating living spaces that transcend known perceptions of luxury. They believe in crafting homes that provide evolved lifestyles, combining opulence, sustainability, and a harmonious coexistence with nature. Each project by Raheja Corp Homes is a testament to their unwavering dedication to quality, innovation, and customer satisfaction. With meticulous attention to detail, Raheja Corp Homes ensures that every aspect of their projects, from architectural design to amenities, is of the highest standards. Their focus on low-density living allows residents to enjoy ample space, privacy, and a serene environment. The incorporation of abundant greenery, panoramic views, and diverse ecosystems showcases their commitment to preserving and enhancing the natural surroundings.
+        <br><br>
+        Raheja Corp Homes is not just a developer; they are creators of lifestyle experiences. They go beyond constructing buildings and focus on curating a holistic living environment that caters to the needs and aspirations of modern residents. The Ready-to-experience Signature Club, a hallmark of their projects, exemplifies their dedication to providing exclusive amenities and services that elevate the luxury living experience.</div>
+        <br><br>
+      </section>
+
+      <!--Section: Content-->
+      <section class="enquiry mb-5">
+
+        <div class="d-flex justify-content-center">
+          <img src="../images/logo.png">
+        </div>
+        <h4 class="mt-4 ms-2 text-center">Register Here and Avail Best Offers!!</span></h4><br>
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-6">
+            <form action="https://formspree.io/f/mpzgdbnr" method="POST">
+              <!-- 2 column grid layout with text inputs for the first and last names -->
+
+              <div class="form-outline mb-4">
+                <input type="text" id="form3Example1" class="form-control" name="Name" required/>
+                <label class="form-label" for="form3Example1">Name</label>
+              </div>
+
+              <!-- Contact input -->
+              <div class="form-outline mb-4">
+                <input type="tel" id="form3Example4" class="form-control" name="Contact" required/>
+                <label class="form-label" for="form3Example4">Contact</label>
+              </div>
+
+              <!-- Email input -->
+              <div class="form-outline mb-4">
+                <input type="email" id="form3Example3" class="form-control" name="Email" required />
+                <label class="form-label" for="form3Example3">Email Id</label>
+              </div>
+
+              <!-- Submit button -->
+              <button type="submit" class="btn btn-primary btn-block mb-4">
+                Enquire Now
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <!--call us-->
+        <div class="py-4 text-center">
+          <h2 class="text-center diaplay-4"><i class="fa-solid fa-phone"></i>  Call Us for Pickup & Drop  <i class="fa-solid fa-car"></i></h2>
+					<br>		
+          <a
+            role="button"
+            class="btn btn-primary btn-lg m-2"
+            href="tel:+918422994433"
+            rel="nofollow"
+          >
+          +91 8422994433
+          </a>
+          <a
+            role="button"
+            class="btn btn-primary btn-lg m-2"
+            href="tel:+919987581672"
+          >
+          +91 9987581672
+          </a>
+        </div>
+
+
+
+      </section>
+      <!--Section: Content-->
+
+</div>
+
+  </main>
+  <!--Main layout-->
+
+<!--Footer-->
+<footer class="bg-light text-lg-start">
+
+  <!-- Copyright -->
+  <div class="p-2 ps-5 pe-5" style="background-color: rgba(0, 0, 0, 0.2); font-size: 12px; text-align: justify;">
+    Disclaimer :Please note that the content provided on this website is for informational purposes only and does not constitute an offer to avail any service. Prices mentioned are subject to change without prior notice, and the properties listed are subject to availability.The images displayed on this website are for representation purposes only, and this is the official website of our authorized marketing partner. We may share your data with RERA registered authorized marketing partners for further processing, and we may also send updates to the mobile number/email ID registered with us. All rights reserved.
+  </div>
+  <!-- Copyright -->
+</footer>
+<!--Footer-->
+
+<!-- The form -->
+<div class="loginPopup">
+	<div class="formPopup" id="popupForm">
+	  <form action="https://formspree.io/f/mpzgdbnr" method="POST" class="formContainer">
+		<button type="button" class="close" onclick="closeForm()" style=" height : 20px; width: 30;border: 0;background-color: #fff;margin-left: 90%; font-size: 30px;">&times;</button>
+		<div>
+			<img src="../images/logo.png" class="ms-2">
+			<h4 class="mt-2 ms-2">Register Here and Avail The Best Offers!!</span></h4>       
+		</div>
+		<br>
+
+        <!-- 2 column grid layout with text inputs for the first and last names --> 
+          <div class="form-outline mb-3">
+            <input type="text" id="form3Example1" class="form-control" name="Name" required />
+            <label class="form-label" for="form3Example1">Name</label>
+          </div>
+          <!-- Contact input -->
+          <div class="form-outline mb-3">
+            <input type="tel" id="form3Example4" class="form-control" name="Contact" required />
+            <label class="form-label" for="form3Example4">Contact</label>
+          </div>
+          <!-- Email input -->
+          <div class="form-outline mb-3">
+            <input type="email" id="form3Example3" class="form-control" name="Email" required />
+            <label class="form-label" for="form3Example3">Email Id</label>
+          </div>
+
+		<button type="submit" class="btn btn-dark mt-2">Enquire Now</button>
+		
+	  </form>
+	</div>
+</div>
+
+<!--form popup-->
+<div class="popup" style="background-color: #f8f7f7;">
+    <button id="close">&times;</button>
+    <img src="../images/logo.png" class="ms-2" height="150px" width="40%">
+    <h4 class="mt-4 ms-2">Register Here and Avail Best Offers!!</span></h4>
+    <form action="https://formspree.io/f/mpzgdbnr" method="POST" class="formContainer">
+    
+        <!-- 2 column grid layout with text inputs for the first and last names -->
+          <div class="form-outline mb-4">
+            <input type="text" id="form3Example1" class="form-control" name="Name" required />
+            <label class="form-label" for="form3Example1">Name</label>
+          </div>
+  
+          <!-- Contact input -->
+          <div class="form-outline mb-4">
+            <input type="tel" id="form3Example4" class="form-control" name="Contact" required />
+            <label class="form-label" for="form3Example4">Contact</label>
+          </div>
+          <!-- Email input -->
+          <div class="form-outline mb-4">
+            <input type="email" id="form3Example3" class="form-control" name="Email" required />
+            <label class="form-label" for="form3Example3">Email Id</label>
+          </div>
+		
+        <button type="submit" class="modal-footer btn mt-1" 
+        style="display: block;
+        max-width: 350px;
+        position: relative;
+        text-align: center;
+        border-radius: 0px;
+        color: #ffffff;
+        text-decoration: none;
+        padding: 2px 0;
+        font-size: 15px;
+        margin-right: 18px;">
+        Enquire Now</button>
+        
+    </form>
+
+</div>
+
+  <!-- MDB -->
+  <script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js"
+  ></script>
+  <script src="../js/main.js"></script>
+  
+</body>
+</html>
